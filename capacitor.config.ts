@@ -5,7 +5,10 @@ const config: CapacitorConfig = {
   appName: 'angular-webview-error',
   webDir: 'dist/angular-webview-error',
   server: {
-    androidScheme: 'customscheme',
+    androidScheme: 'angularwebview',
+  },
+  android: {
+    allowMixedContent: true,
   },
 };
 
